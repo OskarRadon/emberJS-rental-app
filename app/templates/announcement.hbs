@@ -1,1 +1,5 @@
-{{outlet}}
+<ul>
+  {{#each model as |announcement|}}
+    {{announcement-list announcement=announcement}}
+  {{/each}}
+</ul>
