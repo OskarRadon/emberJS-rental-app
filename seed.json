@@ -16,5 +16,12 @@
     "type": "Apartment",
     "bedrooms": 3,
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+  }],
+"announcements": [{
+    "title": "Big hurricane!!",
+    "message": "Batten down the hatches! We can't show some of our great homes because there's a storm a comin!"
+  }, {
+    "title": "Wow!",
+    "message": "We've got some great homes here folks!!!"
   }]
 }
