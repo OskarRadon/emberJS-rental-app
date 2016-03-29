@@ -14,6 +14,7 @@ export default Ember.Component.extend({
         image: this.get('image'),
         bedrooms: this.get('bedrooms'),
       };
+      console.log(rental);
       this.set('updateRentalForm', false);
       this.sendAction('update', rental, params);
     }
