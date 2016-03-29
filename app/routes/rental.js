@@ -7,7 +7,6 @@ export default Ember.Route.extend({
 
   actions: {
     update(rental, params) {
-      console.log(rental);
       Object.keys(params).forEach(function(key) {
         if(params[key]!==undefined) {
           rental.set(key,params[key]);
